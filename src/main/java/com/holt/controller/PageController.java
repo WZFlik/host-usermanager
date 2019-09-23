@@ -28,6 +28,8 @@ public class PageController {
 		System.out.println("serverPort:"+request.getServerPort());
 		System.out.println("contextPath:"+request.getContextPath());
 		System.out.println("contextPath:"+request.getContextPath());
+		System.out.println("contextPath:"+request.getContextPath());
+		System.out.println("contextPath:"+request.getContextPath());
 		System.out.println("serverPath:"+request.getServletPath());
 		return pageName;
 		//添加了测试数据
