@@ -31,12 +31,15 @@ public class PageController {
 		System.out.println("contextPath:"+request.getContextPath());
 		System.out.println("contextPath:"+request.getContextPath());
 		System.out.println("serverPath:"+request.getServletPath());
+		System.out.println("serverPath:"+request.getServletPath());
+		System.out.println("serverPath:"+request.getServletPath());
+		//胜多负少
 		return pageName;
 		//添加了测试数据
 		//又添加了数据
 		//再次添加数据
 		//还添加了这个
-		//再次调剂
 		//然后我又添加了
+		//再次调剂
 	}
 }
