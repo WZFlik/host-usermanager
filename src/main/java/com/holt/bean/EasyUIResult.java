@@ -1,3 +1,36 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@WZFlik 
+WZFlik
+/
+host-usermanager
+1
+00
+ Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+host-usermanager
+/
+src
+/
+main
+/
+java
+/
+com
+/
+holt
+/
+bean
+/
+EasyUIResult.java
+ 
+
+1
 package com.holt.bean;
 
 import java.util.List;
@@ -179,3 +212,26 @@ public class EasyUIResult {
 		</project>
 
 }
+46
+​
+@WZFlik
+Commit changes
+Commit summary
+Update EasyUIResult.java
+Optional extended description
+Add an optional extended description…
+ Commit directly to the master branch.
+ Create a new branch for this commit and start a pull request. Learn more about pull requests.
+ 
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
