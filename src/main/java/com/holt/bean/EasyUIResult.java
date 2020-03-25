@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-这是我清
-/
-/
-所有的不同
-所有的不同
-所有的不同
-所有的不同
-所有的不同
-所有的不同
-所有的不同
-所有的不同
-所有的不同
-=======
->>>>>>> refs/remotes/origin/master
 package com.holt.pojo;
 
 import java.util.Date;
