@@ -31,19 +31,4 @@ public class User {
     public Long getId() {
         return id;
     }
-
-
-  
-   
-  
-   
-  
-   
-  
-   
-//哈哈
-   嘿嘿
-      this 
-      is  remote
-      add
 }
