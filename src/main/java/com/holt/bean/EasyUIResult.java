@@ -96,14 +96,13 @@ public class User {
         return birthday;
     }
 
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
-    }
+  //本地删除***3
 
     public Date getCreated() {
         return created;
     }
 
+    //本地**2
     public void setCreated(Date created) {
         this.created = created;
     }
@@ -113,13 +112,13 @@ public class User {
         this.updated = updated;
 //    }
     //本地加三
+        //本地***2
 
     @Override
     public String toString() {
         return "User [id=" + id + ", userName=" + userName + ", password=" + password + ", name=" + name
                 + ", age=" + age + ", sex=" + sex + ", birthday=" + birthday + ", created=" + created
                 + ", updated=" + updated + "]";
-        //本地保留
     }
 
 
