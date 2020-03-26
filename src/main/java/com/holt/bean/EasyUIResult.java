@@ -1,9 +1,7 @@
 //没有了import和package
-//remote*****1
 public class User {
-   
-    
-   
+    remote加一
+
     //删除toString
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,8 +17,6 @@ public class User {
 
     // 用户名
     private String userName;
-     @GeneratedValue(strate= GenerationType.IDENTITY)
-    private Long id;
 
     // 密码
     private String password;
@@ -28,12 +24,6 @@ public class User {
 
     // 姓名
     private String name;
-    @Override
-    public String toString() {
-        return "User [id=" + id ====s+ ", userName=" + userName + ", password=" + password + ", name=" + name
-                + ", age=" + age + ", sex=" + sex + ", birthday=" + birthday + ", created=" + created
-                + ", updated=" + updated + "]";
-    }
   
     //加三
 
@@ -55,11 +45,82 @@ public class User {
 
     public Long getId() {
         return id;
+    }
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-    //本地1
-    //本地2
-    //本地3
-    //本地4
-    //本地15
+   //加
+
+    public String getuserName() {
+        return userName;
+    }
+
+    public void setuserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public Integer getSex() {
+        return sex;
+    }
+
+    public void setSex(Integer sex) {
+        this.sex = sex;
+    }
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
+
+    public Date getCreated() {
+        return created;
+    }
+
+    public void setCreated(Date created) {
+        this.created = created;
+    }
+
+
+    public void setUpdated(Date updated) {
+        this.updated = updated;
+//    }
+    //本地加三
+        //ben'dii
+
+    @Override
+    public String toString() {
+        return "User [id=" + id + ", userName=" + userName + ", password=" + password + ", name=" + name
+                + ", age=" + age + ", sex=" + sex + ", birthday=" + birthday + ", created=" + created
+                + ", updated=" + updated + "]";
+    }
+
 
 }
