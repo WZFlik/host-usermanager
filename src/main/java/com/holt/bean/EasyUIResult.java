@@ -11,6 +11,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    //本地加1
 
     // 用户名
     private String userName;
@@ -21,22 +22,7 @@ public class User {
 
     // 姓名
     private String name;
-    //五大山粗
-    ///////
-    /
-        /
-        /
-        /
-        /
-        /
-        /
-        
-        /
-        
-        /
-        /
-        /
-        /
+  
 
     // 年龄
     private Integer age;
@@ -52,6 +38,7 @@ public class User {
 
     // 更新时间
     private Date updated;
+    //本地加二
 
     public Long getId() {
         return id;
@@ -118,23 +105,11 @@ public class User {
         this.created = created;
     }
 
-    public Date getUpdated() {
-        return updated;
-        updatae 
-        gasg
-        asdfa
-        sdf- -
-        -\-
-        -
-        -
-        -
-        -
-        -
-    }
 
     public void setUpdated(Date updated) {
         this.updated = updated;
     }
+    //本地加三
 
     @Override
     public String toString() {
