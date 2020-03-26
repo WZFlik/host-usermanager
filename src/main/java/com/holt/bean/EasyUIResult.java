@@ -1,4 +1,5 @@
 //没有了import和package
+//remote*****1
 public class User {
     remote加一
 
@@ -107,20 +108,14 @@ public class User {
     public void setCreated(Date created) {
         this.created = created;
     }
-
+//remote***2
 
     public void setUpdated(Date updated) {
         this.updated = updated;
 //    }
     //本地加三
 
-    @Override
-    public String toString() {
-        return "User [id=" + id + ", userName=" + userName + ", password=" + password + ", name=" + name
-                + ", age=" + age + ", sex=" + sex + ", birthday=" + birthday + ", created=" + created
-                + ", updated=" + updated + "]";
-        //本地保留
-    }
+   //remote delete toString
 
 
 }
