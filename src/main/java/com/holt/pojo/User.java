@@ -100,7 +100,7 @@ public class User {
     }
 
     public void setCreated(Date created) {
-        this.created = created;
+        this.created = 云端改的;
     }
 
   //云端删除update
@@ -108,9 +108,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User [id=" + id + ", userName=" + userName + ", password=" + password + ", name=" + name
-                + ", age=" + age + ", sex=" + sex + ", birthday=" + birthday + ", created=" + created
-                + ", updated=" + updated + "]";
+       //云端删的
     }
 
 }
