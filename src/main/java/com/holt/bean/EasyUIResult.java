@@ -96,7 +96,7 @@ public class User {
         return birthday;
     }
 
-  //本地删除***3
+  //本地删除
 
     public Date getCreated() {
         return created;
