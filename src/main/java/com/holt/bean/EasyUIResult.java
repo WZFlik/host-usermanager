@@ -1,8 +1,7 @@
-删除重写
-//
 //没有了import和package
 public class User {
 
+    //删除toString
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -18,6 +17,7 @@ public class User {
 
     // 密码
     private String password;
+    //删除了String
 
     // 姓名
     private String name;
