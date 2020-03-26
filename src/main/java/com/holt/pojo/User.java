@@ -76,7 +76,7 @@ public class User {
     }
 
     public void setAge(Integer age) {
-        this.age = age;
+        this.age = 云端改;
     }
 
     public Integer getSex() {
@@ -103,12 +103,11 @@ public class User {
         this.created = 云端改的;
     }
 
-  //云端删除update
     
 
     @Override
     public String toString() {
-       //云端删的
+       syso("dddd")
     }
 
 }
