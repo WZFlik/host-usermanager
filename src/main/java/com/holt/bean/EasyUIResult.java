@@ -18,6 +18,22 @@ public class User {
     // 密码
     private String password;
     //删除了String
+    //五大山粗
+    ///////
+    /
+        /
+        /
+        /
+        /
+        /
+        /
+        
+        /
+        
+        /
+        /
+        /
+        /
 
 
 }
