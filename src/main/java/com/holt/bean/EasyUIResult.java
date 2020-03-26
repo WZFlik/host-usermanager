@@ -4,6 +4,12 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     // 用户名
     private String userName;
@@ -32,10 +38,11 @@ public class User {
     public Long getId() {
         return id;
     }
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+   //加
 
     public String getuserName() {
         return userName;
