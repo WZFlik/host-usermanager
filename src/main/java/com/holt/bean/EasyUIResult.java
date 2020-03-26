@@ -5,9 +5,4 @@ public class User {
    
   remote add line
    
-//哈哈
-   嘿嘿
-      this 
-      is  remote
-      add
 }
