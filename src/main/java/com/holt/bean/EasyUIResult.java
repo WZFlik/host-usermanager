@@ -1,5 +1,6 @@
 //没有了import和package
 public class User {
+    remote加一
 
     //删除toString
     @Id
@@ -12,6 +13,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     //本地加1
+    remote加二
 
     // 用户名
     private String userName;
@@ -23,6 +25,7 @@ public class User {
     // 姓名
     private String name;
   
+    //加三
 
     // 年龄
     private Integer age;
@@ -108,7 +111,7 @@ public class User {
 
     public void setUpdated(Date updated) {
         this.updated = updated;
-    }
+//    }
     //本地加三
 
     @Override
