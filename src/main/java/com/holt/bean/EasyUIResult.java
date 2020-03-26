@@ -115,6 +115,7 @@ public class User {
         return "User [id=" + id + ", userName=" + userName + ", password=" + password + ", name=" + name
                 + ", age=" + age + ", sex=" + sex + ", birthday=" + birthday + ", created=" + created
                 + ", updated=" + updated + "]";
+        //本地保留
     }
 
 }
