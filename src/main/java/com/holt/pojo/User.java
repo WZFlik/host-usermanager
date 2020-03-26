@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Table(name  = "tb_user")
 public class User {
-    //加了一行
+    //云端加了一行
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -103,10 +103,8 @@ public class User {
         this.created = created;
     }
 
-    public Date getUpdated() {
-        return updated;
-    }
-
+  //云端删除update
+    
 
     @Override
     public String toString() {
