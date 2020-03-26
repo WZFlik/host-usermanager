@@ -1,13 +1,12 @@
 
-
+加了这一行
 import java.util.Date;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
-@Table(name  = "tb_user")
+删掉这一行
 public class User {
 
     @Id
