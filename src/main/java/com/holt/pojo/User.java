@@ -9,6 +9,7 @@ import javax.persistence.Table;
 
 @Table(name  = "tb_user")
 public class User {
+    //加了一行
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -106,9 +107,6 @@ public class User {
         return updated;
     }
 
-    public void setUpdated(Date updated) {
-        this.updated = updated;
-    }
 
     @Override
     public String toString() {
