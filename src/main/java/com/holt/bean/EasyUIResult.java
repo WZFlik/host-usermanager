@@ -1,8 +1,7 @@
 //没有了import和package
 //remote*****1
 public class User {
-    remote加一
-
+   
     //删除toString
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,6 +17,8 @@ public class User {
 
     // 用户名
     private String userName;
+     @GeneratedValue(strate= GenerationType.IDENTITY)
+    private Long id;
 
     // 密码
     private String password;
@@ -108,14 +109,11 @@ public class User {
     public void setCreated(Date created) {
         this.created = created;
     }
-//remote***2
+
 
     public void setUpdated(Date updated) {
         this.updated = updated;
 //    }
-    //本地加三
-
-   //remote delete toString
-
+   
 
 }
